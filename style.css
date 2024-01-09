@@ -1,0 +1,106 @@
+.naruto{
+    margin: 0;
+    background-color:black;
+}
+ 
+.navbar{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color: black;
+}
+.navbar-left{
+    padding-left:50px;
+    color: aliceblue;
+}
+.navbar-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: azure;
+}
+.a-element{
+    padding: 10px;
+    margin:10px ;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+    height: 90vh;
+    
+
+}
+.home-left{
+    width: 50vw;
+    color: azure;
+    padding-left: 40px;
+
+}
+.home-h2{
+    width: 50vw;
+    color: rgb(176, 199, 26);
+    padding-left: 30px;
+    font-size:40px ;
+    font-weight: bold;
+    align-items: center;
+
+}
+.home-right{
+    width:50vw;
+    padding-left: 200px; 
+  
+    
+}
+.home-h1{
+    font-size:45px ;
+    font-family: 'Montserrat', sans-serif;
+}
+.home-p{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 22px;  
+}
+.about-me{
+    padding: 50px;
+    color:azure;
+    text-align: center;
+    
+}
+.about-me-h1{
+    font-family:'Nunito', sans-serif;
+   letter-spacing:4px ;
+   font-size: 45px;
+   color: gold;
+   font-style: italic ;
+
+}
+.about-me-sub{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+   
+}
+.about-me-card{
+    border: greenyellow 2px solid;
+    margin:25px;
+    padding: 20px;
+    width:400px ;
+}
+.contact{
+    color: aliceblue;
+    text-align: center;
+   
+}
+.contact-info{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 22px;  
+}
+.instgram-icon{
+    height:50px ;
+    padding: 20px;
+}
